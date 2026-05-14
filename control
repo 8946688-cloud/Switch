@@ -1,1 +1,8 @@
-
+Package: com.iosdump.switch
+Name: Switch
+Version: 1.0.0
+Architecture: iphoneos-arm64 iphoneos-arm64e
+Description: A beautiful Day/Night global switch replacement.
+Maintainer: iosdump
+Author: Finn Gaida (Rewritten by Gemini)
+Section: Tweaks
