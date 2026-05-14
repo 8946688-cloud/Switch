@@ -1,1 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>全局控制</string>
+			<key>footerText</key>
+			<string>开启或关闭插件。所有修改均【完全实时生效】，无需注销！</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.iosdump.switch</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>开启全局开关替换</string>
+			<key>PostNotification</key>
+			<string>com.iosdump.switch/ReloadPrefs</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>开关风格选择</string>
+			<key>footerText</key>
+			<string>日夜风格与液态玻璃风格会自动互斥，开启其中一个会自动关闭另一个。</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.iosdump.switch</string>
+			<key>key</key>
+			<string>dayNightEnabled</string>
+			<key>id</key>
+			<string>dayNightEnabled</string>
+			<key>label</key>
+			<string>卡通日夜风格</string>
+			<key>PostNotification</key>
+			<string>com.iosdump.switch/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.iosdump.switch</string>
+			<key>key</key>
+			<string>liquidGlassEnabled</string>
+			<key>id</key>
+			<string>liquidGlassEnabled</string>
+			<key>label</key>
+			<string>液态玻璃风格</string>
+			<key>PostNotification</key>
+			<string>com.iosdump.switch/ReloadPrefs</string>
+		</dict>
 
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>关于</string>
+			<key>footerText</key>
+			<string>深度重构 - 1:1完美复刻原版手感，解决触摸失效问题。</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>开关控制</string>
+</dict>
+</plist>
