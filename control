@@ -1,8 +1,9 @@
 Package: com.iosdump.switch
 Name: Switch
-Version: 1.0.0
+Depends: mobilesubstrate, preferenceloader
+Version: 1.1.0
 Architecture: iphoneos-arm
-Description: A beautiful Day/Night global switch replacement.
+Description: 全局多风格开关 (支持日夜 & 液态玻璃)
 Maintainer: iosdump
-Author: Finn Gaida (Rewritten by Gemini)
+Author: Gemini
 Section: Tweaks
